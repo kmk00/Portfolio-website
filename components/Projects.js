@@ -1,5 +1,6 @@
 import React from "react";
 import { ProjectItem } from "./ProjectItem";
+import dashboardImg from "./../public/assets/projects/dashboard.png";
 
 export const Projects = () => {
   return (
@@ -8,11 +9,36 @@ export const Projects = () => {
         <p className="text-xl tracking-widest uppercase">Projects</p>
         <h2 className="py-4">What i've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem title="" backgroundImg="" projectUrl="" />
-          <ProjectItem title="" backgroundImg="" projectUrl="" />
-          <ProjectItem title="" backgroundImg="" projectUrl="" />
-          <ProjectItem title="" backgroundImg="" projectUrl="" />
-          <ProjectItem title="" backgroundImg="" projectUrl="" />
+          <ProjectItem
+            title="React Js Project"
+            backgroundImg={dashboardImg}
+            projectUrl="/"
+            desc="Description"
+          />
+          <ProjectItem
+            title="React Js Project"
+            backgroundImg={dashboardImg}
+            projectUrl="/"
+            desc="Description"
+          />
+          <ProjectItem
+            title="React Js Project"
+            backgroundImg={dashboardImg}
+            projectUrl="/"
+            desc="Description"
+          />
+          <ProjectItem
+            title="React Js Project"
+            backgroundImg={dashboardImg}
+            projectUrl="/"
+            desc="Description"
+          />
+          <ProjectItem
+            title="React Js Project"
+            backgroundImg=""
+            projectUrl="/"
+            desc="Description"
+          />
         </div>
       </div>
     </div>
