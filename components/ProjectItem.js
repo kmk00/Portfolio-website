@@ -13,8 +13,8 @@ export const ProjectItem = ({
       <Image
         className="rounded-xl group-hover:opacity-10"
         src={backgroundImg}
-        width={600}
-        height={400}
+        width={500}
+        height={350}
         alt="/"
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">

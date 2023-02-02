@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] font-bold tracking-wide;
+    @apply bg-[#ecf0f3] text-[#1f2937] font-bold tracking-wide scroll-smooth;
   }
 
   h1,
