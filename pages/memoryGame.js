@@ -15,10 +15,10 @@ function japanese() {
       <h2 className="p-4">Overview</h2>
 
       <div className="md:max-w-[1240px] w-full grid gap-4 xl:grid-cols-2 items-center justify-center">
-        <div className="relative md:w-[600px] md:h-[300px] w-80 h-40 border-2 border-black shadow-gray-400 p-2">
+        <div className="relative md:w-[600px] md:h-[300px] w-80 h-40 border-2 border-black shadow-gray-400 shadow-lg p-2">
           <Image src={pokecardImg1} fill alt="overwiev image 1"></Image>
         </div>
-        <div className="relative md:w-[600px] md:h-[300px] w-80 h-40 border-2 border-black shadow-gray-400 ">
+        <div className="relative md:w-[600px] md:h-[300px] w-80 h-40 border-2 border-black shadow-gray-400 shadow-lg p-2">
           <Image src={pokecardImg2} fill alt="overwiev image 2"></Image>
         </div>
       </div>
@@ -26,21 +26,20 @@ function japanese() {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
           <p className="text-xl mt-4">
-            The purpose of the site is likely to help users improve their
-            Japanese language skills through various exercises or resources.
-            Exercises available on the site:
+            Players must select every card in the level. If a player chooses the
+            same card twice, the game ends immediately. After each pick, the
+            cards in the current level shuffle their positions. The goal is to
+            score as many points as possible.
           </p>
-          <ul className=" list-disc p-4 pl-8 cursor-default text-xl">
-            <li>Practice Drawing Kana</li>
-            <li>Guessing Kana</li>
-            <li>Practice wrting Kana</li>
-            <li>Practice writing the alphabet</li>
-            <li>Listen to the sound of Kana</li>
-          </ul>
-          <Link href="https://kmk00-practice-japanese.netlify.app/">
+          <p className="text-xl mt-4">
+            Players must log into their Google account to play the game. When a
+            player loses, their best results are retrieved from the Firebase
+            database and displayed on the page.
+          </p>
+          <Link href="https://pokecard-memory.netlify.app/">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
-          <Link href="https://github.com/kmk00/practice-japanese">
+          <Link href="https://github.com/kmk00/MemoryCardGame">
             <button className="px-8 py-2 mt-4">Code</button>
           </Link>
         </div>
@@ -56,13 +55,13 @@ function japanese() {
               </p>
 
               <p className="text-gray-600 py-2 flex items-center">
-                <IoIosRadioButtonOn className="pr-1" /> Javascript
+                <IoIosRadioButtonOn className="pr-1" /> Firebase
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <IoIosRadioButtonOn className="pr-1" /> NextJS
+                <IoIosRadioButtonOn className="pr-1" /> Vite
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <IoIosRadioButtonOn className="pr-1" /> Context API
+                <IoIosRadioButtonOn className="pr-1" /> PokeAPI
               </p>
             </div>
           </div>
