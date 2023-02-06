@@ -1,9 +1,4 @@
 import React from "react";
-import { ProjectItem } from "./ProjectItem";
-import japaneseImg from "./../public/assets/projects/japanese/japanese-alphabet-practice.png";
-import memoryGameImg from "./../public/assets/projects/pokecard/pokecard.png";
-import portfolioSiteImg from "./../public/assets/projects/portfolio-website.png";
-import dashboardImg from "./../public/assets/projects/dashboard/dashboard.png";
 import ProjectItemSm from "./ProjectItemSm";
 
 export const Projects = () => {
@@ -13,26 +8,16 @@ export const Projects = () => {
         <p className="text-xl tracking-widest uppercase">Projects</p>
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
+          <ProjectItemSm
             title="Japanese Practice - Alphabet"
-            backgroundImg={japaneseImg}
             projectUrl="/japanese"
           />
-          <ProjectItem
+          <ProjectItemSm
             title="Pokecards - Memory Game"
-            backgroundImg={memoryGameImg}
             projectUrl="/memoryGame"
           />
-          <ProjectItem
-            title="Portfolio Website"
-            backgroundImg={portfolioSiteImg}
-            projectUrl="/portfolio"
-          />
-          <ProjectItem
-            title="User Dashboard Panel"
-            backgroundImg={dashboardImg}
-            projectUrl="/dashboard"
-          />
+          <ProjectItemSm title="Portfolio Website" projectUrl="/portfolio" />
+          <ProjectItemSm title="User Dashboard Panel" projectUrl="/dashboard" />
           <ProjectItemSm title="Message Me - Text App" />
           <ProjectItemSm title="Weather App" />
           <ProjectItemSm title="Trivia Quizz App" />
