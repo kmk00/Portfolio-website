@@ -2,8 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { IoIosRadioButtonOn } from "react-icons/io";
-import japaneseImg1 from "./../public/assets/projects/japanese/japanese1.png";
-import japaneseImg2 from "./../public/assets/projects/japanese/japanese2.png";
 
 function japanese() {
   return (
@@ -16,10 +14,18 @@ function japanese() {
 
       <div className="md:max-w-[1240px] w-full grid gap-4 xl:grid-cols-2 items-center justify-center">
         <div className="relative md:w-[600px] md:h-[300px] w-80 h-40 border-2 border-black shadow-gray-400 p-2">
-          <Image src={japaneseImg1} fill alt="overwiev image 1"></Image>
+          <Image
+            src="/assets/projects/japanese/japanese2.png"
+            fill
+            alt="overwiev image 1"
+          ></Image>
         </div>
         <div className="relative md:w-[600px] md:h-[300px] w-80 h-40 border-2 border-black shadow-gray-400 ">
-          <Image src={japaneseImg2} fill alt="overwiev image 2"></Image>
+          <Image
+            src="/assets/projects/japanese/japanese1.png"
+            fill
+            alt="overwiev image 2"
+          ></Image>
         </div>
       </div>
 
