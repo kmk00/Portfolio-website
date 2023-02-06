@@ -34,17 +34,8 @@ export const Projects = () => {
             projectUrl="/dashboard"
           />
           <ProjectItemSm title="Message Me - Text App" />
-          {/*
-          <ProjectItem
-            title="Weather App"
-            backgroundImg={weatherAppImg}
-            projectUrl="/weatherapp"
-          />
-          <ProjectItem
-            title="Trivia Quizz App"
-            backgroundImg={quizzImg}
-            projectUrl="/quizz"
-          /> */}
+          <ProjectItemSm title="Weather App" />
+          <ProjectItemSm title="Trivia Quizz App" />
         </div>
       </div>
     </div>
