@@ -1,6 +1,12 @@
 import React from "react";
 import { ProjectItem } from "./ProjectItem";
 import dashboardImg from "./../public/assets/projects/dashboard.png";
+import japaneseImg from "./../public/assets/projects/japanese/japanese-alphabet-practice.png";
+import memoryGameImg from "./../public/assets/projects/pokecard-memory.png";
+import portfolioSiteImg from "./../public/assets/projects/portfolio-website.png";
+import messageMeImg from "./../public/assets/projects/messageMe.png";
+import weatherAppImg from "./../public/assets/projects/weatherApp.png";
+import quizzImg from "./../public/assets/projects/trivia-quizz.png";
 
 export const Projects = () => {
   return (
@@ -10,34 +16,39 @@ export const Projects = () => {
         <h2 className="py-4">What i've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="React Js Project"
-            backgroundImg={dashboardImg}
-            projectUrl="/property"
-            desc="Description"
+            title="Japanese Practice - Alphabet"
+            backgroundImg={japaneseImg}
+            projectUrl="/japanese"
           />
           <ProjectItem
-            title="React Js Project"
-            backgroundImg={dashboardImg}
-            projectUrl="/property"
-            desc="Description"
+            title="Pokecards - Memory Game"
+            backgroundImg={memoryGameImg}
+            projectUrl="/memoryGame"
           />
           <ProjectItem
-            title="React Js Project"
-            backgroundImg={dashboardImg}
-            projectUrl="/property"
-            desc="Description"
+            title="Portfolio Website"
+            backgroundImg={portfolioSiteImg}
+            projectUrl="/portfolio"
           />
           <ProjectItem
-            title="React Js Project"
+            title="User Dashboard Panel"
             backgroundImg={dashboardImg}
-            projectUrl="/property"
-            desc="Description"
+            projectUrl="/dashboard"
           />
           <ProjectItem
-            title="React Js Project"
-            backgroundImg=""
-            projectUrl="/property"
-            desc="Description"
+            title="Message Me - Text App"
+            backgroundImg={messageMeImg}
+            projectUrl="/messageme"
+          />
+          <ProjectItem
+            title="Weather App"
+            backgroundImg={weatherAppImg}
+            projectUrl="/weatherapp"
+          />
+          <ProjectItem
+            title="Trivia Quizz App"
+            backgroundImg={quizzImg}
+            projectUrl="/quizz"
           />
         </div>
       </div>

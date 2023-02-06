@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
+import { IoMdDocument } from "react-icons/io";
 
 export const Main = () => {
   return (
@@ -12,19 +13,23 @@ export const Main = () => {
           <h1 className="py-2 text-gray-700">
             Hi, I'm <span className="text-[#5651e5]">Łukasz</span>
           </h1>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">gfdssssss</p>
+
           <div className="flex items-center justify-between max-w-[430px] m-auto gap-6 py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <AiFillLinkedin size={25} />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <AiFillGithub size={25} />
-            </div>
+            <a href="https://www.linkedin.com/in/%C5%82ukasz-kamiski-427955264/">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                <AiFillLinkedin size={25} />
+              </div>
+            </a>
+            <a href="https://github.com/kmk00">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                <AiFillGithub size={25} />
+              </div>
+            </a>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
               <AiFillMail size={25} />
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <AiFillLinkedin size={25} />
+              <IoMdDocument size={25} />
             </div>
           </div>
         </div>

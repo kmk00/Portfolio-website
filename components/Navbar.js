@@ -8,6 +8,7 @@ import {
   AiOutlineMenu,
 } from "react-icons/ai";
 import { useState } from "react";
+import { IoMdDocument } from "react-icons/io";
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -112,17 +113,21 @@ export const Navbar = () => {
                 Let's connect
               </p>
               <div className="flex items-center justify-around my-4 w-full sm:w-[80%]">
+                <a href="https://www.linkedin.com/in/%C5%82ukasz-kamiski-427955264/">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiFillLinkedin size={25} />
+                  </div>
+                </a>
+                <a href="https://github.com/kmk00">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiFillGithub size={25} />
+                  </div>
+                </a>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiFillLinkedin />
+                  <AiFillMail size={25} />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiFillGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiFillMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiFillLinkedin />
+                  <IoMdDocument size={25} />
                 </div>
               </div>
             </div>
