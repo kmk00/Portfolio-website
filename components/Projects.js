@@ -26,11 +26,12 @@ export const Projects = () => {
             backgroundImg={portfolioSiteImg}
             projectUrl="/portfolio"
           />
-          {/* <ProjectItem
+          <ProjectItem
             title="User Dashboard Panel"
             backgroundImg={dashboardImg}
             projectUrl="/dashboard"
           />
+          {/*
           <ProjectItem
             title="Message Me - Text App"
             backgroundImg={messageMeImg}

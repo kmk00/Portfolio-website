@@ -5,11 +5,11 @@ import { IoIosRadioButtonOn } from "react-icons/io";
 import pokecardImg1 from "./../public/assets/projects/pokecard/pokecard.png";
 import pokecardImg2 from "./../public/assets/projects/pokecard/pokecard1.png";
 
-function japanese() {
+function memoryGame() {
   return (
     <div className="w-full flex-col flex items-center">
       <div className="mt-20 w-full text-white bg-black/80 z-10 p-8">
-        <h2 className="py-2">Japanese Practice - Alphabet</h2>
+        <h2 className="py-2">Memory Card Game</h2>
         <h3>React / Tailwind / Firebase</h3>
       </div>
       <h2 className="p-4">Overview</h2>
@@ -74,4 +74,4 @@ function japanese() {
   );
 }
 
-export default japanese;
+export default memoryGame;
