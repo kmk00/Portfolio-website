@@ -16,7 +16,7 @@ export const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
         <h3 className="text-2xl text-white tracking-wider text-center pb-4 pt-2">
           {title}
         </h3>
-        <Link className="" href={projectUrl}>
+        <Link href={projectUrl}>
           <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
             More info
           </p>

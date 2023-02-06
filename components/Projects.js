@@ -1,12 +1,8 @@
 import React from "react";
 import { ProjectItem } from "./ProjectItem";
-import dashboardImg from "./../public/assets/projects/dashboard.png";
 import japaneseImg from "./../public/assets/projects/japanese/japanese-alphabet-practice.png";
-import memoryGameImg from "./../public/assets/projects/pokecard-memory.png";
+import memoryGameImg from "./../public/assets/projects/pokecard/pokecard.png";
 import portfolioSiteImg from "./../public/assets/projects/portfolio-website.png";
-import messageMeImg from "./../public/assets/projects/messageMe.png";
-import weatherAppImg from "./../public/assets/projects/weatherApp.png";
-import quizzImg from "./../public/assets/projects/trivia-quizz.png";
 
 export const Projects = () => {
   return (
@@ -30,7 +26,7 @@ export const Projects = () => {
             backgroundImg={portfolioSiteImg}
             projectUrl="/portfolio"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="User Dashboard Panel"
             backgroundImg={dashboardImg}
             projectUrl="/dashboard"
@@ -49,7 +45,7 @@ export const Projects = () => {
             title="Trivia Quizz App"
             backgroundImg={quizzImg}
             projectUrl="/quizz"
-          />
+          /> */}
         </div>
       </div>
     </div>

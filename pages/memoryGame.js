@@ -2,24 +2,24 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { IoIosRadioButtonOn } from "react-icons/io";
-import japaneseImg1 from "./../public/assets/projects/japanese/japanese1.png";
-import japaneseImg2 from "./../public/assets/projects/japanese/japanese2.png";
+import pokecardImg1 from "./../public/assets/projects/pokecard/pokecard.png";
+import pokecardImg2 from "./../public/assets/projects/pokecard/pokecard1.png";
 
 function japanese() {
   return (
     <div className="w-full flex-col flex items-center">
       <div className="mt-20 w-full text-white bg-black/80 z-10 p-8">
         <h2 className="py-2">Japanese Practice - Alphabet</h2>
-        <h3>React / Tailwind</h3>
+        <h3>React / Tailwind / Firebase</h3>
       </div>
       <h2 className="p-4">Overview</h2>
 
       <div className="md:max-w-[1240px] w-full grid gap-4 xl:grid-cols-2 items-center justify-center">
         <div className="relative md:w-[600px] md:h-[300px] w-80 h-40 border-2 border-black shadow-gray-400 p-2">
-          <Image src={japaneseImg1} fill alt="overwiev image 1"></Image>
+          <Image src={pokecardImg1} fill alt="overwiev image 1"></Image>
         </div>
         <div className="relative md:w-[600px] md:h-[300px] w-80 h-40 border-2 border-black shadow-gray-400 ">
-          <Image src={japaneseImg2} fill alt="overwiev image 2"></Image>
+          <Image src={pokecardImg2} fill alt="overwiev image 2"></Image>
         </div>
       </div>
 
