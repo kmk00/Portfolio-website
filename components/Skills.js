@@ -19,6 +19,12 @@ export const Skills = () => {
           <Technology image="/../assets/github.svg" name="GITHUB" />
           <Technology image="/../assets/photoshop.svg" name="PHOTOSHOP" />
         </div>
+        <h2 className="mt-8 pt-4">What I Want to Learn in 2023</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <Technology image="/../assets/nextjs.svg" name="NEXT JS" />
+          <Technology image="/../assets/typescript.svg" name="TYPESCRIPT" />
+          <Technology image="/../assets/firebase.svg" name="FIREBASE" />
+        </div>
       </div>
     </div>
   );
