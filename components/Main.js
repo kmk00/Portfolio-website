@@ -25,9 +25,11 @@ export const Main = () => {
                 <AiFillGithub size={25} />
               </div>
             </a>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <AiFillMail size={25} />
-            </div>
+            <a href="/#contact">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                <AiFillMail size={25} />
+              </div>
+            </a>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
               <IoMdDocument size={25} />
             </div>
