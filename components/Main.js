@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import { IoMdDocument } from "react-icons/io";
 
@@ -30,9 +31,11 @@ export const Main = () => {
                 <AiFillMail size={25} />
               </div>
             </a>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <IoMdDocument size={25} />
-            </div>
+            <Link href="/pdf/CV.pdf">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                <IoMdDocument size={25} />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

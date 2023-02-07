@@ -123,12 +123,16 @@ export const Navbar = () => {
                     <AiFillGithub size={25} />
                   </div>
                 </a>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiFillMail size={25} />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <IoMdDocument size={25} />
-                </div>
+                <a href="/#contact">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiFillMail size={25} />
+                  </div>
+                </a>
+                <Link href="/pdf/CV.pdf">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <IoMdDocument size={25} />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

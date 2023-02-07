@@ -17,10 +17,11 @@ export const About = () => {
             responsive and user-friendly websites.{" "}
           </p>
           <p className="py-2 text-gray-600">
-            I am a huge movie enthusiast, that's why in my free time I love to
-            spend time checking out new films and binge-watching great series.
-            One day I would like to participate in making a movie to get to know
-            the process of creating it from the inside.
+            <span className=" font-black">Fun fact: </span>I am a huge movie
+            enthusiast, that's why in my free time I love to spend time checking
+            out new films and binge-watching great series. One day I would like
+            to participate in making a movie to get to know the process of
+            creating it from the inside.
           </p>
           <p className="py-2 text-gray-600 underline ">
             Check out some of my latest projects.
