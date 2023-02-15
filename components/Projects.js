@@ -47,6 +47,11 @@ export const Projects = () => {
             demoUrl="https://randomquizzz.netlify.app/"
             codeUrl="https://github.com/kmk00/quizzz"
           />
+          <ProjectItemSm
+            title="Vinyl Store - Landing Page"
+            demoUrl="https://kmk00-vinyl-store-landing-page.netlify.app/"
+            codeUrl="https://github.com/kmk00/vinyl-records-sub-landing-page"
+          />
         </div>
       </div>
     </div>
